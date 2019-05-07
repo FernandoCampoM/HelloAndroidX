@@ -16,7 +16,8 @@ public class clsHelloAndroidX extends AppCompatActivity implements View.OnClickL
         setContentView(R.layout.activity_hello_andorid_x);
         atrButton = (Button) findViewById(R.id.atrButton);
         atrButton.setOnClickListener(this);
-        UpDateTime();
+        //UpDateTime();
+        atrButton.setText("Bienvenido a tu primera App");
     }
     public void UpDateTime(){
         atrButton.setText(new Date().toString());
