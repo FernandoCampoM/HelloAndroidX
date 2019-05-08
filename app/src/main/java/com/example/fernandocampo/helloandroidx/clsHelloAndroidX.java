@@ -26,6 +26,6 @@ public class clsHelloAndroidX extends AppCompatActivity implements View.OnClickL
 
     @Override
     public void onClick(View v) {
-        //UpDateTime();
+        UpDateTime();
     }
 }
